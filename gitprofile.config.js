@@ -3,7 +3,7 @@
 const config = {
   github: {
     username: 'omarsherif74', // Your GitHub org/user name. (Required)
-    sortBy: 'stars', // stars | updated
+    sortBy: 'updated', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
@@ -33,36 +33,39 @@ const config = {
       'https://drive.google.com/file/d/1hL61hpLUJvjuLJdG4mewlJW5Jj_Kn9dF/view?usp=drive_link', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
+    'Python',
+    'Problem Solving',
+    'REST API',
+    'Object Oriented Programming',
+    'Selenium',
+    'BeautifulSoup',
     'JavaScript',
     'React.js',
     'Node.js',
-    'Nest.js',
+    'Ruby',
+    'Ruby on Rails',
+    'React Native',
+    'Flutter',
+    'PHP',
+    'Laravel',
     'MySQL',
     'PostgreSQL',
-    'Git',
-    'Docker',
-    'PHPUnit',
+    'MongoDB',
+    'C',
+    'C#',
+    'Unity',
+    'HTML',
     'CSS',
-    'Antd',
-    'Tailwind',
+    'Git'
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
+      company: 'RMZTech',
+      position: 'Web developer intern',
+      from: 'August 2022',
+      to: 'September 2022',
       companyLink: 'https://example.com',
-    },
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
-    },
+    }
   ],
   /* certifications: [
     {
@@ -78,13 +81,8 @@ const config = {
       degree: 'Bachelor of Science in Computer and Communications Engineering',
       from: '2018',
       to: '2023',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
-    },
+      grade: 'GPA: 3.27',
+    }
   ],
 
   // To hide the `My Projects` section, keep it empty.
@@ -105,11 +103,11 @@ const config = {
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
-  blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many posts to display. Max is 10.
-  },
+  // blog: {
+  //   source: 'dev', // medium | dev
+  //   username: 'arifszn', // to hide blog section, keep it empty
+  //   limit: 2, // How many posts to display. Max is 10.
+  // },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
@@ -136,34 +134,6 @@ const config = {
     themes: [
       'light',
       'dark',
-      'cupcake',
-      'bumblebee',
-      'emerald',
-      'corporate',
-      'synthwave',
-      'retro',
-      'cyberpunk',
-      'valentine',
-      'halloween',
-      'garden',
-      'forest',
-      'aqua',
-      'lofi',
-      'pastel',
-      'fantasy',
-      'wireframe',
-      'black',
-      'luxury',
-      'dracula',
-      'cmyk',
-      'autumn',
-      'business',
-      'acid',
-      'lemonade',
-      'night',
-      'coffee',
-      'winter',
-      'procyon',
     ],
 
     // Custom theme
