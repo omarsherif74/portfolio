@@ -92,7 +92,7 @@ const config = {
       title: 'PriceSmart Graduation Project',
       description:
         'Collaborated with a team of five to implement a mobile application that scrapes products from several local websites (Amazon, Jumia, Noon) then compares between them based on criteria (e.g. price, rating). Developed Selenium web scraping scripts using Python. Worked on parsing HTML using BeautifulSoup4 to extract product attributes and reduced the scraping time by around 83% from 3 minutes to less than 30 seconds using bs4 parsing and efiicient code optimizations. Created Rails API, designed database and developed controller methods to handle client requests. Tools used: Rails, React native, Python, Selenium, BeautifulSoup4, Postgres, Redis',
-      imageUrl: 'public\grad_app_logo.jpg',
+      imageUrl: 'grad_app_logo.jpg',
       link: 'https://github.com/omarsherif74/Best-deals-backend',
     },
   ],
@@ -137,11 +137,11 @@ const config = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made originally from <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
+  footer: `Made with ❤️ by <a 
+      class="text-primary" href="https://github.com/omarsherif74"
       target="_blank"
       rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+    >Omar Sherif</a>`,
 };
 
 export default config;
