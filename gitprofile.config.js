@@ -74,10 +74,10 @@ const config = {
   ], */
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Alexandria University',
+      degree: 'Bachelor of Science in Computer and Communications Engineering',
+      from: '2018',
+      to: '2023',
     },
     {
       institution: 'Institution Name',
