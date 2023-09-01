@@ -7,23 +7,11 @@ const config = {
     limit: 10, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
-      projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
+      projects: ['BeforeIDieAchievements','devportfolio','omarsherif74'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
     linkedin: 'omar-sherif-swe',
-    // twitter: 'arif_szn',
-    // mastodon: 'arifszn@mastodon.social',
-    // facebook: '',
-    // instagram: '',
-    // youtube: '', // example: 'pewdiepie'
-    // dribbble: '',
-    // behance: '',
-    // medium: 'arifszn',
-    // dev: 'arifszn',
-    // stackoverflow: '', // example: '1/jeff-atwood'
-    // skype: '',
-    // telegram: '',
     // website: 'https://arifszn.com',
     phone: '+20 120 5407797',
     email: 'omarsherifswe@gmail.com',
@@ -67,14 +55,6 @@ const config = {
       companyLink: 'https://example.com',
     }
   ],
-  /* certifications: [
-    {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com'
-    },
-  ], */
   education: [
     {
       institution: 'Alexandria University',
@@ -84,30 +64,38 @@ const config = {
       grade: 'GPA: 3.27',
     }
   ],
+  certifications: [
+    {
+      name: 'Create with Code by Unity',
+      body: 'Learned how to create games using Unity and C# and how to use Unity\'s UI system to create in-game UIs.',
+      year: 'August 2023',
+      link: 'https://learn.unity.com/course/create-with-code'
+    },
+    {
+      name: 'Introduction to Data Engineering by IBM',
+      body: 'Learned about the data engineering ecosystem and how to use Apache Spark to analyze data.',
+      year: 'August 2023',
+      link: 'https://coursera.org/verify/KMSK959HFQLP'
+    },
+    {
+      name: 'The Complete 2022 Flutter and Dart Development by Udacity',
+      body: 'Learned how to create cross-platform mobile apps using Flutter and Dart.',
+      year: 'September 2022',
+      link: 'https://www.udemy.com/course/complete-flutter-arabic/'
+    },
+  ],
+  
 
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: 'Project Name',
+      title: 'PriceSmart Graduation Project',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
-    },
-    {
-      title: 'Project Name',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+        'Collaborated with a team of five to implement a mobile application that scrapes products from several local websites (Amazon, Jumia, Noon) then compares between them based on criteria (e.g. price, rating). Developed Selenium web scraping scripts using Python. Worked on parsing HTML using BeautifulSoup4 to extract product attributes and reduced the scraping time by around 83% from 3 minutes to less than 30 seconds using bs4 parsing and efiicient code optimizations. Created Rails API, designed database and developed controller methods to handle client requests. Tools used: Rails, React native, Python, Selenium, BeautifulSoup4, Postgres, Redis',
+      imageUrl: 'public\grad_app_logo.jpg',
+      link: 'https://github.com/omarsherif74/Best-deals-backend',
     },
   ],
-  // Display blog posts from your medium or dev account. (Optional)
-  // blog: {
-  //   source: 'dev', // medium | dev
-  //   username: 'arifszn', // to hide blog section, keep it empty
-  //   limit: 2, // How many posts to display. Max is 10.
-  // },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
@@ -117,7 +105,7 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'wireframe',
+    defaultTheme: 'light',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
@@ -132,6 +120,7 @@ const config = {
 
     // Available themes. To remove any theme, exclude from here.
     themes: [
+      'light',
       'dark',
     ],
 
@@ -148,7 +137,7 @@ const config = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
+  footer: `Made originally from <a 
       class="text-primary" href="https://github.com/arifszn/gitprofile"
       target="_blank"
       rel="noreferrer"
