@@ -61,7 +61,6 @@ const config = {
       degree: 'Bachelor of Science in Computer and Communications Engineering',
       from: '2018',
       to: '2023',
-      grade: 'GPA: 3.27',
     }
   ],
   certifications: [
